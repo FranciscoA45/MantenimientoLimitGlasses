@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_item_one"
+            android:icon="@drawable/baseline_bolt"
+            android:title="Estado de los lentes"
+            />
+        <item
+            android:id="@+id/nav_item_two"
+            android:icon="@drawable/baseline_settings"
+            android:title="Configurar sensibilidad"
+            />
+        <item
+            android:id="@+id/nav_item_three"
+            android:icon="@drawable/baseline_calibration"
+            android:title="Calibrar sensores"
+            />
+        <item
+            android:id="@+id/nav_item_four"
+            android:icon="@drawable/baseline_edit_notifications_24"
+            android:title="Configurar notificaciones"
+            />
+    </group>
+
+
+</menu>

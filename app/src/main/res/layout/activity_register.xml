@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".Register"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/background_titulo"
+        >
+
+        <TextView
+            android:id="@+id/textRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrate"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textRegistro"
+            android:layout_marginTop="20dp"
+            android:text="Crea una nueva cuenta"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Nombre"
+        android:maxLines="1"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/background_edit_text" />
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Correo eléctronico"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_edit_text" />
+
+    <RelativeLayout
+        style="@style/Relative_Layout_Style"
+        >
+        <EditText
+            android:id="@+id/passwordET"
+            style="@style/Edit_Text_Style2"
+            android:hint="Contraseña"/>
+
+        <ImageView
+            android:id="@+id/PasswordIcon"
+            style="@style/Image_View_Style"
+            />
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        style="@style/Relative_Layout_Style"
+        >
+        <EditText
+            android:id="@+id/PasswordET2"
+            style="@style/Edit_Text_Style2"
+            android:hint="Confirmar contraseña"
+            />
+        <ImageView
+            android:id="@+id/PasswordIcon2"
+            style="@style/Image_View_Style"
+            />
+    </RelativeLayout>
+
+   <TextView
+       android:id="@+id/Tengocuenta"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Ya tengo una cuenta"
+       android:layout_marginTop="20dp"
+       android:textStyle="bold"
+       android:layout_marginStart="125dp"
+       />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_primary"
+        android:text="REGISTRARSE"
+        />
+
+
+  </LinearLayout>
