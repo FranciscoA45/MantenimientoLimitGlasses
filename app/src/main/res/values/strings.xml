@@ -1,9 +1,9 @@
 <resources>
-	<string name="app_name">LimitGlasses</string>
-	<string name="to">Enviar a</string>
-	<string name="subject">Destinatario</string>
-	<string name="message">Mensaje</string>
-	<string name="send">Enviar</string>
-	<string name="navigation_drawer_open">Open</string>
-	<string name="navigation_drawer_close">Close</string>
+    <string name="app_name">LimitGlasses</string>
+    <string name="to">Enviar a</string>
+    <string name="subject">Destinatario</string>
+    <string name="message">Mensaje</string>
+    <string name="send">Enviar</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
 </resources>
