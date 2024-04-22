@@ -19,6 +19,7 @@ void loop() {
   if (currentMillis - previousMillis >= interval) {
     previousMillis = currentMillis;
 
+    // Parte implementada, respecto a la version anterior del código
     // Genera un pulso en el pin TRIG del sensor de ultrasonidos
     digitalWrite(trigPin, LOW);
     delayMicroseconds(2);
