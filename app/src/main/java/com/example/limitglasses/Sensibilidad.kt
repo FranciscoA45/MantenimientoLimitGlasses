@@ -71,9 +71,15 @@ class Sensibilidad : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 return true
             }
 
+            R.id.nav_item_four -> {
+                val intentNotificaciones = Intent(this, ConfigurarNotificaciones::class.java)
+                startActivity(intentNotificaciones)
+                return true
+            }
+
             else -> {
                 // Manejar ítems desconocidos
-                Toast.makeText(this,"Opción no válida",Toast.LENGTH_SHORT).show()
+                Toast.makeText(this,"",Toast.LENGTH_SHORT).show()
                 return false
             }
         }
