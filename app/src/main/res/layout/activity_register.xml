@@ -125,6 +125,18 @@
         android:background="@drawable/btn_primary"
         android:text="REGISTRARSE"
         />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnGogleR"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_gogle"
+        android:text="Inicia sesion con Google"
+        />
 
 
-  </LinearLayout>
+</LinearLayout>
