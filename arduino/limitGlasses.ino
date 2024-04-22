@@ -1,3 +1,4 @@
+// programa escrito para placas Arduino que utiliza el lenguaje de programación Arduino
 const int trigPin = 2;
 const int echoPin = 3;
 const int motorPin = 4;
