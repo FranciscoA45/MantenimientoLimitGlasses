@@ -11,19 +11,55 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="281dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="35dp"
-            android:layout_marginTop="150dp"
-            android:text="Estado de los lentes"
-            android:textColor="@color/azulMarino"
+            android:text="ESTADO DE LENTES"
+            android:textColor="@color/white"
             android:textSize="40sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+
+            />
 
 
 
     </LinearLayout>
+<ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/glasses"
+        android:layout_gravity="center"
+        />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnActivar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="70dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_primary"
+        android:text="ACTIVAR"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonOff"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="70dp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_primary"
+        android:text="DESACTIVAR"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
