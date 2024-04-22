@@ -19,4 +19,8 @@
     <color name="pink">#FFC0CB</color>
     <color name="cyan">#00FFFF</color>
     <color name="brown">#A52A2A</color>
+    <color name="lavender">#E6E6FA</color>
+    <color name="gold">#FFD700</color>
+    <color name="silver">#C0C0C0</color>
+
 </resources>
